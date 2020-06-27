@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Calculator"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the number one"
+        android:id="@+id/number1"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the any number two"
+        android:id="@+id/number2"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="result"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+         android:textSize="15dp"
+         android:text="Addition"
+            android:id="@+id/Addition"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="Subtraction"
+        android:id="@+id/subtraction"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="Multiplication"
+        android:id="@+id/Multiplication"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="Division"
+        android:id="@+id/Division"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Calculate"
+        android:textSize="30dp"
+        android:id="@+id/calculate"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
